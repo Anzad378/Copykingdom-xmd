@@ -1,8 +1,8 @@
 {
-  "name": "PRINCE XMD",
-  "description": "Javascript WhatsApp bot made by PRINCE TECH",
-  "logo": "https://files.catbox.moe/v2fbec.jpeg",
-  "keywords": ["PRINCE XMD"],
+  "name": "KINGDOM XMD",
+  "description": "A WHATSAPP BOT CREATED BY KINGDOM TECH",
+  "logo": "https://files.catbox.moe/0kwukb.jpg",
+  "keywords": ["KINGDOM XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "PRINCE XMD"
+      "value": "KINGDOM XMD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY PRINCE XMD*"
+      "value": "*SEEN YOUR STATUS BY KINGDOM XMD*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "prince tech"
+      "value": "kingdom tech"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255623672733"
+      "value": "255654667145"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "PRINCE XMD"
+      "value": "KINGDOM XMD"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/v2fbec.jpeg"
+      "value": "https://files.catbox.moe/0kwukb.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*POWERED BY PRINCE XMD*"
+      "value": "*POWERED BY KINGDOM XMD*"
     },
 
       "DELETE_LINKS": {
