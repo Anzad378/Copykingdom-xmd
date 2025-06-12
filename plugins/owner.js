@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/v2fbec.jpeg' }, // Image URL from your request
-            caption: `╭━━〔 *PRINCE_XMD* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/0kwukb.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *KINGDOM_XMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -40,14 +40,14 @@ async (conn, mek, m, { from }) => {
 ┃◈╭─┴────────────●●►
 
 ╰──────────────┈⊷
-> POWERED BY PRINCE TECH`, // Display the owner's details
+> POWERED BY KINGDOM TECH`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398106360290@newsletter',
-                    newsletterName: 'PRINCE XMD',
+                    newsletterJid: '120363401981451001@newsletter',
+                    newsletterName: 'KINGDOM XMD',
                     serverMessageId: 143
                 }            
             }
