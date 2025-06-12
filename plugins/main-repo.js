@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/PRINCETECH19/PRINCE-XMD';
+    const githubRepoURL = 'https://github.com/Anzad378/KINGDOM-XMD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -172,15 +172,15 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/v2fbec.jpeg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/0kwukb.jpg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398106360290@newsletter',
-                    newsletterName: config.OWNER_NAME || 'PRINCE XMD',
+                    newsletterJid: '120363401981451001@newsletter',
+                    newsletterName: config.OWNER_NAME || 'KINGDOM XMD',
                     serverMessageId: 143
                 }
             }
