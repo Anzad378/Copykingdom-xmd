@@ -15,7 +15,7 @@
     <td align="center" width="50%">
       <h3>Fork Repository</h3>
       <p>Customize the bot for your needs</p>
-      <a href="https://github.com/Anzad378/KINGDOM-MD/fork">
+      <a href="https://github.com/Anzad378/KINGDOM-XMD/fork">
         <img src="https://img.shields.io/badge/FORK-purple?style=for-the-badge" alt="Fork Button">
       </a>
     </td>
