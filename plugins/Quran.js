@@ -59,15 +59,15 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+        image: { url: `https://files.catbox.moe/0kwukb.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363207624903731@newsletter', 
-            newsletterName: 'PRINCE 𝐓𝐄𝐂𝐇 🤖', 
+            newsletterJid: '120363401981451001@newsletter', 
+            newsletterName: 'KINGDOM 𝐓𝐄𝐂𝐇 🤖', 
             serverMessageId: 143
           }
         }
@@ -100,7 +100,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `❤️  ⊷┈ *PRINCE_XMD QURAN KAREEM* ┈⊷  🤍
+        let dec = `❤️  ⊷┈ *KINGDOM_XMD QURAN KAREEM* ┈⊷  🤍
 
  💫 𝘈𝘭𝘭 𝘴𝘶𝘳𝘢𝘩 𝘢𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘯𝘶𝘮𝘣𝘦𝘳𝘴 𝘭𝘪𝘴𝘵
 𝘧𝘰𝘳 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 𝘴𝘶𝘳𝘢𝘩 𝘵𝘺𝘱𝘦 .𝘴𝘶𝘳𝘢𝘩 36 💫🌸 
